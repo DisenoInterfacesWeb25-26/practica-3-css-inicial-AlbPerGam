@@ -6,6 +6,9 @@
 body {
     font-size: 1em;
     color: var(--negro);
+    background-color: var(--blanco);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
 }
 
 h1 {
@@ -103,4 +106,10 @@ th {
 td {
     border: 1px solid var(--verde-medio);
     padding: 0.5em
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 0.5em;
+    text-transform: capitalize;
 }
