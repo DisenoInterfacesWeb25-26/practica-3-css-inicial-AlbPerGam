@@ -96,6 +96,10 @@ table {
     background-color: var(--blanco);
     color: var(--negro);
     border: 1px solid var(--verde-medio);
+    width: 100%;
+    text-align: center;
+    table-layout: auto;
+    margin: 20px 0;
 }
 
 th {
@@ -128,4 +132,12 @@ nav a {
 nav a:hover {
     opacity: 0.8;
     text-decoration: none;
+}
+
+caption {
+    caption-side: bottom;
+    font-weight: bold;
+    margin-top: 10px;
+    color: var(--negro);
+    font-size: 1em;
 }
