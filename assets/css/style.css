@@ -64,11 +64,15 @@ header {
     background-color: var(--blanco);
     color: var(--verde-oscuro);
     text-align: center;
+    padding-top: 60px;
 }
 
 nav {
     background-color: var(--verde-medio);
     text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 footer {
@@ -140,4 +144,10 @@ caption {
     margin-top: 10px;
     color: var(--negro);
     font-size: 1em;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
