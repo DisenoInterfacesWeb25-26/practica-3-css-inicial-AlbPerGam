@@ -106,11 +106,6 @@ table {
     margin: 20px 0;
 }
 
-th {
-    background-color: var(--verde-medio);
-    color: var(--blanco);
-}
-
 td {
     border: 1px solid var(--verde-medio);
     padding: 0.5em
@@ -150,4 +145,57 @@ caption {
     position: fixed;
     bottom: 20px;
     right: 20px;
+}
+
+table thead tr:first-child {
+    background-color: var(--verde-medio);
+    color: var(--blanco);
+}
+
+table tr:nth-child(odd) {
+    background-color: #f5f5f5;
+}
+
+table tr:nth-child(even) {
+    background-color: var(--blanco);
+}
+
+ a:link {
+    color: var(--naranja);
+    text-decoration: none;
+}
+ 
+nav a:visited {
+    color: #7f00ff;
+}
+
+nav a:active {
+    background-color: var(--verde-oscuro);
+    color: var(--blanco);
+}
+
+aside a:visited {
+    color: #7f00ff;
+}
+
+aside a:hover {
+    color: var(--naranja);
+    text-decoration: underline;
+}
+
+aside a:active {
+    color: var(--verde-medio);
+}
+
+footer a:visited {
+    color: #7f00ff;
+}
+
+footer a:hover {
+    color: var(--naranja);
+    text-decoration: underline;
+}
+
+footer a:active {
+    color: var(--verde-medio);
 }
