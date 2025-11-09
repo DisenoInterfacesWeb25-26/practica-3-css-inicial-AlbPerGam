@@ -93,6 +93,9 @@ form {
     border: 1px solid var(--verde-medio);
     padding: 1em;
     border-radius: 10px;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
 }
 
 table {
@@ -198,4 +201,15 @@ footer a:hover {
 
 footer a:active {
     color: var(--verde-medio);
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form input[type="tel"],
+form textarea {
+    width: 100%;
+    border: 1px solid var(--verde-medio);
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
